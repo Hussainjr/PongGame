@@ -41,7 +41,7 @@ public class Paddle extends Rectangle{
         }
     }
 
-    public void KeyReleased(KeyEvent e){
+    public void keyReleased(KeyEvent e){
         switch (id){
             case 1:
                 if(e.getKeyCode() == KeyEvent.VK_W){
